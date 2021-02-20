@@ -1,0 +1,102 @@
+<!-- El tipo de documento -->
+<!DOCTYPE html>
+<!-- el lenguaje en el que esta la página usando el código internacional -->
+<html lang="es">
+  <!--
+    Sección de cabecera
+
+    Esta contiene información no visible de la pagina tales como
+
+    -estilos
+    -fuentes (tipografía)
+    -titulo de la pestaña
+    -configuraciones
+  -->
+  <head>
+    <!-- codificación -->
+    <meta charset="UTF-8" />
+    <!-- configuraciónes para retrocompatiblidad -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- configuración para escalado en diferentes pantallas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- titulo a mostrar en la pestaña del navegador -->
+    <title>Mi CV</title>
+    <!-- link a una página de fuentes -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <!-- link a una fuente en específico -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- link a nuestra hoja de estilos -->
+    <link rel="stylesheet" href="estilos.css" />
+  </head>
+  <!-- 
+    Esta sección contiene el contenido de la página
+
+    Dentro solo pueden existir etiquetas etiquetas de presentación, no se pueden usar etiquetas
+    que se usan en <head>
+   -->
+  <body>
+    <!-- barra lateral -->
+    <div class="barra-lateral sombra">
+      <!-- imagen -->
+      <div class="retrato">
+        <img src="../../imagenes/portrait.jpg" alt="fotografía" />
+      </div>
+      <!-- el nombre de la persona -->
+      <h2 class="titulo">pedro perez sanchez</h2>
+      <!-- lista de información -->
+      <div class="informacion"><span>Ocupacion:</span>trabajador</div>
+      <div class="informacion"><span>Edad:</span>25 años</div>
+      <div class="informacion"><span>Nacionalidad:</span>Mexicana</div>
+      <div class="informacion"><span>Titulo:</span>Licenciado</div>
+    </div>
+    <!-- contenido central -->
+    <div class="contenido">
+      <!--contenedor blanco -->
+      <div class="panel sombra">
+        <h3 class="titulo rosa">un poco sobre mí</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+          corporis, vero voluptates, magnam hic, vitae recusandae quia
+          accusantium provident totam asperiores optio sed modi iste harum
+          distinctio porro eum in dolore doloremque earum nemo eaque molestiae.
+          Excepturi, illo nulla error inventore, ipsam natus voluptates nobis
+          consectetur libero repudiandae iure magnam magni deserunt? Quae maxime
+          mollitia deserunt aperiam recusandae quia? Rerum officiis, similique
+          qui dolore porro suscipit aspernatur adipisci maxime laboriosam quasi
+          sint, reiciendis, unde doloribus inventore amet laudantium quo
+          deleniti! Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Dolor nobis itaque voluptatibus vero asperiores! Tempore, impedit
+          deserunt nihil suscipit repudiandae dolores placeat accusantium quasi
+          error, in vitae vel veritatis quae?
+        </p>
+      </div>
+      <!-- contenedor blanco -->
+      <div class="panel sombra">
+        <!-- un contenedor de listados -->
+        <div class="listado">
+          <!-- titulo del listado -->
+          <h3 class="titulo rosa">Habilidades</h3>
+          <!-- listado -->
+          <ul>
+            <!-- elemento de la lista -->
+            <li>Esta es mi habilidad 1</li>
+            <li>Esta es mi habilidad 2</li>
+            <li>Esta es mi habilidad 3</li>
+            <li>Esta es mi habilidad 4</li>
+          </ul>
+        </div>
+        <div class="listado">
+          <h3 class="titulo rosa">Experiencia</h3>
+          <ul>
+            <li>Esta es mi experiencia 1</li>
+            <li>Esta es mi experiencia 2</li>
+            <li>Esta es mi experiencia 3</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
