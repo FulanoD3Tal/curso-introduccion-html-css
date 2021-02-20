@@ -4,7 +4,7 @@ HTML es el lenguaje de marcado con el que se construyen todas las páginas web. 
 
 ---
 
-## [Demo final](url_de_github_actions)
+## [Demo final](https://fulanod3tal.github.io/curso-introduccion-html-css/)
 
 ![página final](./imagenes/final.png)
 
@@ -15,7 +15,7 @@ HTML es el lenguaje de marcado con el que se construyen todas las páginas web. 
 
 ## Instalación
 
-Descargar el repositorio a travez de el boton **Code** colo verde que se encuentra en la parte superior de esta página
+Descargar el repositorio a travez de el boton **Code** color verde que se encuentra en la parte superior de esta página
 
 ó
 
