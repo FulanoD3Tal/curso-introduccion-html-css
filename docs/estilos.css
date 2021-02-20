@@ -1,0 +1,125 @@
+/**
+*  Hoja de estilos
+*  Autor: Ing. Roberto Alonso De la Garza Mendoza
+*  version: 1.0.0
+*/
+
+/* Reseteo de estilos por default */
+* {
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+/* Estilos para debuggear */
+/* body * {
+  border: 1px solid coral;
+} */
+
+/* Asignación de tipografia */
+body {
+  font-family: 'Noto Sans', sans-serif;
+  display: flex;
+  height: 100vh;
+  font-size: 16px;
+  background-color: #edeaea;
+}
+/* encabezados */
+h2,
+h3 {
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+}
+/* sombra */
+.sombra {
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.1),
+    0 6px 20px 0 rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.1),
+    0 6px 20px 0 rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.1),
+    0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+/*color de los elementos */
+
+.titulo,
+.informacion {
+  color: #ffead0;
+}
+/* negrita para etiqueta barra lateral */
+.informacion span {
+  font-weight: bold;
+}
+/* estilo que sobrescribe color */
+.rosa {
+  color: #f76f8e;
+}
+/* imagen responsiva */
+img {
+  max-width: 100%;
+  height: auto;
+}
+/* barra lateral */
+.barra-lateral {
+  background-color: #37505c;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  height: 100%;
+  width: 30rem;
+}
+/* imagen del retrato */
+.retrato {
+  border-radius: 50%;
+  width: 15rem;
+  height: 15rem;
+  overflow: hidden;
+  border: 2px solid #ffead0;
+  margin-bottom: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* lista de elementos */
+.informacion {
+  max-width: 100%;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  margin-bottom: 1rem;
+  display: flex;
+}
+/* estilo aninado para agregar estilos internamente */
+.informacion span {
+  margin-right: auto;
+}
+/* contenido de la derecha */
+.contenido {
+  display: flex;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  color: #113537;
+}
+/* estilos de los cuadros que contiene texto */
+.panel {
+  background-color: #f5f5f5;
+  border-radius: 0.2rem;
+  padding: 2rem;
+  margin: 3rem 2rem;
+}
+/* estilo que se aplica solo al ultimo elemento con esa clase */
+.panel:last-child {
+  columns: 2;
+  column-rule: 1px solid #e5e5e5;
+}
+/* estilo que aplica solo a los encabezados dentro de un elemento con clase listado */
+.listado > .titulo {
+  text-align: center;
+}
+/* margen izquierdo para el listado */
+.listado ul {
+  margin-left: 5rem;
+}
+/* margin inferior para cada elemento de la lista */
+.listado ul li {
+  margin-bottom: 1rem;
+}
